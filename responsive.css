@@ -1,0 +1,23 @@
+@media (max-width: 640px) {
+
+    .carousel .item {
+        max-height: 500px;
+        height: 300px;
+      }
+      
+      .item img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%!important;
+      }
+
+
+      .item-menu{
+        width: 80%;
+        height: auto;
+        display: inline-block;
+     
+      }
+     
+}
