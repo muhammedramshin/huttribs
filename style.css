@@ -201,3 +201,54 @@ background-image: url(./Images/bootle.jpg);
   height: 1000px;
   margin: 0 auto;
 }
+
+.btn-red{
+  background-image: linear-gradient(red,rgb(189, 50, 50));
+  width: 200px;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: none;
+  padding: 20px;
+  color: white;
+
+}
+
+.semibox{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 650px;
+  margin-top: 25px;
+  background-color: gray;
+  display: flex;
+  
+
+}
+.semiboxleft{
+  display: block;
+  background-color: green;
+  width: 60%;
+  height: auto;
+  background-image: url(./Images/item4.jpeg);
+  background-size:100% 100%;
+}
+.semiboxright{
+  display: block;
+  background-color: #d4d1d1;
+  width:40%;
+  height: 100%;
+  color: black;
+}
+.vertical-center1 {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+
+
+  
+}
