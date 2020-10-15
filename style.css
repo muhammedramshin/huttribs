@@ -449,7 +449,7 @@ background-image: url(./Images/bootle.jpg);
 .semibox1left{
   display: block;
  
-  width: 50%;
+  width: 40%;
   height: auto;
   
 }
@@ -463,11 +463,20 @@ background-image: url(./Images/bootle.jpg);
 .semibox1rightlast{
   display: block;
   
-  width:30%;
-  height: 100%;
+  width:40%;
+  height: 95%;
   color: white;
   
 }
+.semibox1-map{
+  position: relative;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  height: 60%;
+  transform: translate(-50%,-40%);
+}
+
 
 .semibox1-logo{
   position: relative;
@@ -478,7 +487,7 @@ background-image: url(./Images/bootle.jpg);
 
 }
 .semibox1-logo img{
-  width: 80%;
+  width: 90%;
   height: auto;
 }
 .semibox1-contact{
@@ -488,6 +497,8 @@ background-image: url(./Images/bootle.jpg);
   left: 50%;
   transform: translate(-50%,-50%);
 }
+
+
 
 .semibox1-contact h5{
   text-align: left;
