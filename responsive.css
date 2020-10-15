@@ -23,18 +23,31 @@
        height: 50vh; 
        width: 95%;  
       }
-      
+      .semibox1-logo{
+        position: relative;
+        text-align: center;
+        top: 0;
+        left: 0;
+        transform: none;
+      }
       .semibox1{
-         width: 100%; 
+        width: 100%;
+        display: grid;
+        margin: auto;
+        height: 80vh;
+
       }
       .semibox1left{
         width: 80%;
+        margin: auto;
       }
       .semibox1right{
         width: 80%;
+        margin: auto;
       }
       .semibox1rightlast{
         width: 80%;
+        margin: auto;
       }
       .mobile-logo img{
         display: block;
