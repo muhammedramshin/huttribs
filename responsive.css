@@ -27,6 +27,15 @@
       .semibox1{
          width: 100%; 
       }
+      .semibox1left{
+        width: 80%;
+      }
+      .semibox1right{
+        width: 80%;
+      }
+      .semibox1rightlast{
+        width: 80%;
+      }
       .mobile-logo img{
         display: block;
         float: left;

@@ -18,6 +18,9 @@ body{
   z-index: 999;
   width: 100%;
 }
+#top-menu li a:hover{
+
+}
 .navbar-header .navbar-toggle .icon-bar
 {
   background-color: white!important;
@@ -48,10 +51,12 @@ body{
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-.mu-main-navbar .mu-main-nav li a :hover {
-  color: #fff;
+.mu-main-navbar .mu-main-nav li a:hover {
+  color: red!important;
+  
   
 }
+
 .mu-main-navbar .mu-main-nav .dropdown-menu {
   background-color: #333;
   border-radius: 0;
@@ -83,8 +88,9 @@ body{
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  background-color: white;
-  text-decoration: underline red;
+  background-color: rgba(0,0,0,.0001)!important;
+  color: #fff;
+  border-bottom: 2px solid red;
 }
 
 .navbar-bg {
