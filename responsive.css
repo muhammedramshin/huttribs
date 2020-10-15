@@ -15,9 +15,29 @@
 
       .item-menu{
         width: 80%;
-        height: auto;
+        
         display: inline-block;
      
       }
+      .semibox{
+       height: 50vh; 
+       width: 95%;  
+      }
+      
+      .semibox1{
+         width: 100%; 
+      }
+      .mobile-logo img{
+        display: block;
+        float: left;
+        width: 200px;
+        height: auto;
+      }
+      .small-logo{
+        display: none!important;
+      }
+
+
+
      
 }

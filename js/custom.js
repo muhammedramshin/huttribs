@@ -24,6 +24,17 @@
 
   
 **/
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("logo-tp").style.width = "100px";
+  } else {
+    document.getElementById("logo-tp").style.width = "400px";
+  }
+}
+
+
 $(document).ready(function(){
   $('.customer-logos').slick({
       slidesToShow: 6,
