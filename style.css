@@ -20,7 +20,7 @@ body{
 }
 .menu-bg-icon{
   opacity: .2;
-    transform: translate(100px, 145%);
+  transform: translate(100px, 145%);
 }
 
 #top-menu li a:hover{
