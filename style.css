@@ -418,6 +418,12 @@ background-image: url(./Images/bootle.jpg);
   
 
 }
+
+.navbar-nav.navbar-center { 
+  
+  left: 50%; 
+  transform: translatex(-50%); 
+} 
 .semiboxleft{
   display: block;
   background-color: green;
